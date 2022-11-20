@@ -90,7 +90,7 @@ export const Contact = () => {
         <textarea
           type="text"
           className="form-control w-100 mt-1"
-          style={{color: "green"}}
+          style={{ color: "green", fontStyle: "italic" }}
           name="message"
           placeholder="Mensaje..."
           value={form.message}
