@@ -55,9 +55,9 @@ export const NavBar = () => {
                 <li>
                   <a
                     className="dropdown-item"
-                    href="https://betoayza.github.io/car-workshop-frontend/#/"
+                    href="https://betoayza.github.io/car-workshop-frontend/"
                   >
-                    Car Work Shop
+                    Super Car Workshop
                   </a>
                 </li>
               </ul>

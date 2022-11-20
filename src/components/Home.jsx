@@ -12,7 +12,10 @@ export const Home = () => {
         alignContent: "space-between",
       }}
     >
-      <div className={"text-center"}>
+      <div
+        className={"text-center"}
+        style={{ borderRadius: "0.5rem", borderStyle: "double" }}
+      >
         <h1>Hi I'm Alberto Ayza Web Developer</h1>
         <h3>Developer & content creator located in Argentina</h3>
       </div>
