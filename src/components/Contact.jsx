@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
 //import { useNavigate, useParams } from "react-router-dom";
-// import { Modal } from "./Modal";
+import { Modal } from "./Modal";
+import axios from "axios";
 
 const initialForm = {
   name: "",
@@ -13,6 +14,7 @@ const initialForm = {
 export const Contact = () => {
   const [form, setForm] = useState(initialForm);
   const [isSended, setIsSended] = useState(false);
+  const [modal, setModal] = useState(false);
 
   // let navigate = useNavigate();
   // const { username, code } = useParams();
@@ -25,9 +27,31 @@ export const Contact = () => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsSended(true);
+    //setIsSended(true);
+
+    const options = {
+      url: "https://formsubmit.co/ajax/aaayza@gmail.com",
+      method: "post",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      timeout: 3000,
+      data: form,
+    };
+
+    await axios
+      .request(options)
+      .then((res) => {
+        console.log(res);
+        setModal(true);
+        if (res.data) {
+          setLoading(true);
+        }
+      })
+      .catch((error) => error);
   };
 
   const handleBack = () => {
@@ -36,15 +60,41 @@ export const Contact = () => {
 
   const handleClose = () => {
     setIsSended(false);
+    setModal(false);
     handleClean();
   };
 
-  return isSended ? (
+  return modal ? (
     <Modal>
-      <h2>Mensaje enviado ;)</h2>
-      <button type="button" className="btn btn-danger" onClick={handleClose}>
-        Cerrar
-      </button>
+      {isSended ? (
+        <div
+          className={"text-center"}
+          style={{ display: "grid", placeItems: "center" }}
+        >
+          <h2>Mensaje enviado ;)</h2>
+          <button
+            type="button"
+            className="btn btn-danger"
+            onClick={handleClose}
+          >
+            Cerrar
+          </button>
+        </div>
+      ) : (
+        <div
+          className={"text-center"}
+          style={{ display: "grid", placeItems: "center" }}
+        >
+          <h2>Hubo un error :(</h2>
+          <button
+            type="button"
+            className="btn btn-danger"
+            onClick={handleClose}
+          >
+            Cerrar
+          </button>
+        </div>
+      )}
     </Modal>
   ) : (
     <div

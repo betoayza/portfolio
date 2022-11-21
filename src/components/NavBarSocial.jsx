@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 
 export const NavBarSocial = () => {
   return (
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
+    <ul className="nav justify-content-center">
+      <li className="nav-item">
         <a
-          class="nav-link active"
+          className="nav-link active"
           aria-current="page"
           href="https://github.com/betoayza"
         >
@@ -17,7 +17,7 @@ export const NavBarSocial = () => {
         </a>
       </li>
 
-      <li class="nav-item">
+      <li className="nav-item">
         <a
           class="nav-link"
           href="https://www.linkedin.com/in/alberto-ayza-838023137/"

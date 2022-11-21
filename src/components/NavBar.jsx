@@ -60,6 +60,46 @@ export const NavBar = () => {
                     Super Car Workshop
                   </a>
                 </li>
+                <li>
+                  <a
+                    className="dropdown-item"
+                    href="https://betoayza.github.io/countries-cities/"
+                  >
+                    Countries Cities
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="dropdown-item"
+                    href="https://betoayza.github.io/drum-machine/"
+                  >
+                    Drum Machine
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="dropdown-item"
+                    href="https://betoayza.github.io/song-finder/"
+                  >
+                    Song Finder
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="dropdown-item"
+                    href="https://betoayza.github.io/markdown-previewer/"
+                  >
+                    Markdown Previewer
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="dropdown-item"
+                    href="https://betoayza.github.io/random-quote-machine/"
+                  >
+                    Random Quote Machine
+                  </a>
+                </li>
               </ul>
             </li>
             <li className="nav-item">
