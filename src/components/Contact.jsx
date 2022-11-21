@@ -7,7 +7,7 @@ import axios from "axios";
 const initialForm = {
   name: "",
   lastName: "",
-  mail: "",
+  email: "",
   message: "",
 };
 
@@ -32,7 +32,7 @@ export const Contact = () => {
     //setIsSended(true);
 
     const options = {
-      url: "https://formsubmit.co/ajax/aaayza@gmail.com",
+      url: "https://formsubmit.co/ajax/203cf7fc5cf3429a39018970bed76969",
       method: "post",
       headers: {
         "Content-Type": "application/json",
@@ -131,7 +131,7 @@ export const Contact = () => {
         <input
           type="email"
           className="form-control w-auto mt-1"
-          name="mail"
+          name="email"
           placeholder="Email..."
           value={form.mail}
           onChange={handleChange}
