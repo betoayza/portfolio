@@ -100,7 +100,7 @@ export const Contact = () => {
   ) : (
     <div
       className={"h-auto text-center container"}
-      style={{ display: "grid", placeItems: "center" }}
+      style={{ display: "grid", placeItems: "center", maxWidth: "100%" }}
     >
       <h2>Contact:</h2>
       <form
@@ -110,7 +110,7 @@ export const Contact = () => {
       >
         <input
           type="text"
-          className="form-control w-auto mt-1"
+          className="form-control w-100 mt-1"
           name="name"
           placeholder="Nombre..."
           value={form.name}
@@ -120,7 +120,7 @@ export const Contact = () => {
 
         <input
           type="text"
-          className="form-control w-auto mt-1"
+          className="form-control w-100 mt-1"
           name="lastName"
           placeholder="Apellido..."
           value={form.lastName}
@@ -130,7 +130,7 @@ export const Contact = () => {
 
         <input
           type="email"
-          className="form-control w-auto mt-1"
+          className="form-control w-100 mt-1"
           name="email"
           placeholder="Email..."
           value={form.mail}
@@ -140,7 +140,7 @@ export const Contact = () => {
 
         <textarea
           type="text"
-          className="form-control w-auto mt-1"
+          className="form-control w-100 mt-1"
           style={{ color: "green", fontStyle: "italic" }}
           name="message"
           placeholder="Mensaje..."
