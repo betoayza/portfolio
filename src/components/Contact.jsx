@@ -48,6 +48,7 @@ export const Contact = () => {
         console.log(res);
         setModal(true);
         if (res.data) {
+          setIsSended(true);
           setLoading(true);
         }
       })
