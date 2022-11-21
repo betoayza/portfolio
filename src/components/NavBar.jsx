@@ -43,7 +43,7 @@ export const NavBar = () => {
               >
                 Proyects
               </a>
-              <ul className="dropdown-menu">
+              <ul className="dropdown-menu dropdown-menu-dark">
                 <li>
                   <a
                     className="dropdown-item"

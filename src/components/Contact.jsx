@@ -99,18 +99,18 @@ export const Contact = () => {
     </Modal>
   ) : (
     <div
-      className={"h-auto text-center"}
+      className={"h-auto text-center container"}
       style={{ display: "grid", placeItems: "center" }}
     >
       <h2>Contact:</h2>
       <form
         onSubmit={handleSubmit}
         className={"container"}
-        style={{ fontFamily: "cursive" }}
+        style={{ fontFamily: "cursive", display: "grid", placeItems: "center" }}
       >
         <input
           type="text"
-          className="form-control w-100 mt-1"
+          className="form-control w-auto mt-1"
           name="name"
           placeholder="Nombre..."
           value={form.name}
@@ -120,7 +120,7 @@ export const Contact = () => {
 
         <input
           type="text"
-          className="form-control w-100 mt-1"
+          className="form-control w-auto mt-1"
           name="lastName"
           placeholder="Apellido..."
           value={form.lastName}
@@ -130,7 +130,7 @@ export const Contact = () => {
 
         <input
           type="email"
-          className="form-control w-100 mt-1"
+          className="form-control w-auto mt-1"
           name="mail"
           placeholder="Email..."
           value={form.mail}
@@ -140,14 +140,14 @@ export const Contact = () => {
 
         <textarea
           type="text"
-          className="form-control w-100 mt-1"
+          className="form-control w-auto mt-1"
           style={{ color: "green", fontStyle: "italic" }}
           name="message"
           placeholder="Mensaje..."
           value={form.message}
           onChange={handleChange}
           rows={5}
-          cols={10}
+          cols={21}
           maxLength={500}
           required
         />

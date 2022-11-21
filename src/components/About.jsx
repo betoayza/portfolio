@@ -2,8 +2,15 @@ import React from "react";
 
 export const About = () => {
   return (
-    <div className={""} style={{ minHeight: "90vh" }}>
-      <div className={"text-center"}>
+    <div className={""} style={{ minHeight: "90vh", maxWidth: "100%" }}>
+      <div
+        className={"text-center"}
+        style={{
+          borderStyle: "double",
+          borderRadius: "0.5rem",
+          borderColor: "#dcf970",
+        }}
+      >
         <h2>About:</h2>
         <p>
           I'm a advanced systems student at the National Technological

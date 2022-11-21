@@ -5,15 +5,18 @@ body {
   background-size: cover;
 }
 
-h1, h2 {
+h1,
+h2 {
   /* color: #6610f2; */
   color: #18c88e;
+  -webkit-text-stroke: 1px black;  
 }
 
 h3 {
   color: #d2cd17;
+  -webkit-text-stroke: 1px black;  
 }
 
 p {
-  color: #f3f1b4
+  color: #f3f1b4;
 }

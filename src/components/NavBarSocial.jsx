@@ -19,7 +19,7 @@ export const NavBarSocial = () => {
 
       <li className="nav-item">
         <a
-          class="nav-link"
+          className="nav-link"
           href="https://www.linkedin.com/in/alberto-ayza-838023137/"
         >
           <i

@@ -10,14 +10,20 @@ export const Home = () => {
         minHeight: "95vh",
         display: "grid",
         alignContent: "space-between",
+        placeItems: "center"
       }}
     >
       <div
         className={"text-center"}
-        style={{ borderRadius: "0.5rem", borderStyle: "double" }}
+        style={{
+          borderRadius: "0.5rem",
+          borderStyle: "double",
+          borderColor: "#927d98",
+          width: "auto"
+        }}
       >
         <h1>Hi I'm Alberto Ayza Web Developer</h1>
-        <h3>Developer & content creator located in Argentina</h3>
+        <h3 className={""} style={{textShadow: "1px"}}>Developer & content creator located in Argentina</h3>
       </div>
       <div>
         <NavBarSocial />
