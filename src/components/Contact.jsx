@@ -133,7 +133,7 @@ export const Contact = () => {
           className="form-control w-100 mt-1"
           name="email"
           placeholder="Email..."
-          value={form.mail}
+          value={form.email}
           onChange={handleChange}
           required
         />
