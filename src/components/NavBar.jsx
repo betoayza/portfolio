@@ -100,6 +100,14 @@ export const NavBar = () => {
                     Random Quote Machine
                   </a>
                 </li>
+                <li>
+                  <a
+                    className="dropdown-item"
+                    href="https://betoayza.github.io/dog-finder-2/"
+                  >
+                    Dog Finder
+                  </a>
+                </li>
               </ul>
             </li>
             <li className="nav-item">
