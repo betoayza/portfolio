@@ -106,7 +106,7 @@ export const Contact = () => {
       <form
         onSubmit={handleSubmit}
         className={"container"}
-        style={{ fontFamily: "cursive", display: "grid", placeItems: "center" }}
+        style={{ display: "grid", placeItems: "center" }}
       >
         <input
           type="text"
@@ -115,6 +115,7 @@ export const Contact = () => {
           placeholder="Nombre..."
           value={form.name}
           onChange={handleChange}
+          style={{ color: "#932a0a", fontStyle: "italic" }}
           required
         />
 
@@ -125,6 +126,7 @@ export const Contact = () => {
           placeholder="Apellido..."
           value={form.lastName}
           onChange={handleChange}
+          style={{ color: "#932a0a", fontStyle: "italic" }}
           required
         />
 
@@ -135,13 +137,14 @@ export const Contact = () => {
           placeholder="Email..."
           value={form.email}
           onChange={handleChange}
+          style={{ color: "#932a0a", fontStyle: "italic" }}
           required
         />
 
         <textarea
           type="text"
           className="form-control w-100 mt-1"
-          style={{ color: "green", fontStyle: "italic" }}
+          style={{ color: "#932a0a", fontStyle: "italic" }}
           name="message"
           placeholder="Mensaje..."
           value={form.message}
