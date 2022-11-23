@@ -108,6 +108,14 @@ export const NavBar = () => {
                     Dog Finder
                   </a>
                 </li>
+                <li>
+                  <a
+                    className="dropdown-item"
+                    href="https://betoayza.github.io/pokedex/"
+                  >
+                    Pokedex
+                  </a>
+                </li>
               </ul>
             </li>
             <li className="nav-item">
