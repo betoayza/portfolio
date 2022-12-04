@@ -116,6 +116,30 @@ export const NavBar = () => {
                     Pokedex
                   </a>
                 </li>
+                <li>
+                  <a
+                    className="dropdown-item"
+                    href="https://betoayza.github.io/music-band/"
+                  >
+                    Music Band
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="dropdown-item"
+                    href="https://betoayza.github.io/js-calculator/"
+                  >
+                    JS Calculator
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="dropdown-item"
+                    href="https://betoayza.github.io/to-do-list/"
+                  >
+                    To Do List
+                  </a>
+                </li>
               </ul>
             </li>
             <li className="nav-item">
