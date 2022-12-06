@@ -140,6 +140,14 @@ export const NavBar = () => {
                     To Do List
                   </a>
                 </li>
+                <li>
+                  <a
+                    className="dropdown-item"
+                    href="https://betoayza.github.io/notes/"
+                  >
+                    Notes
+                  </a>
+                </li>
               </ul>
             </li>
             <li className="nav-item">
