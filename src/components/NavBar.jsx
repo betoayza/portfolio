@@ -26,7 +26,11 @@ export const NavBar = () => {
               <NavLink to={`/`}>
                 {({ isActive }) => (
                   <a
-                    className={isActive ? "nav-link active" : "nav-link active"}
+                    className={
+                      isActive
+                        ? "nav-link pastelOrange"
+                        : "nav-link pastelOrange"
+                    }
                   >
                     Home
                   </a>
@@ -35,7 +39,7 @@ export const NavBar = () => {
             </li>
             <li className="nav-item dropdown">
               <a
-                className="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle pastelOrange"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -46,7 +50,7 @@ export const NavBar = () => {
               <ul className="dropdown-menu dropdown-menu-dark">
                 <li>
                   <a
-                    className="dropdown-item"
+                    className="dropdown-item greenYellow"
                     href="https://betoayza.github.io/shopping-cart-siete-oro-frontend/"
                   >
                     Siete de Oro
@@ -54,7 +58,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <a
-                    className="dropdown-item"
+                    className="dropdown-item greenYellow"
                     href="https://betoayza.github.io/car-workshop-frontend/"
                   >
                     Super Car Workshop
@@ -62,7 +66,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <a
-                    className="dropdown-item"
+                    className="dropdown-item greenYellow"
                     href="https://betoayza.github.io/countries-cities/"
                   >
                     Countries Cities
@@ -70,7 +74,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <a
-                    className="dropdown-item"
+                    className="dropdown-item greenYellow"
                     href="https://betoayza.github.io/drum-machine/"
                   >
                     Drum Machine
@@ -78,7 +82,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <a
-                    className="dropdown-item"
+                    className="dropdown-item greenYellow"
                     href="https://betoayza.github.io/song-finder/"
                   >
                     Song Finder
@@ -86,7 +90,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <a
-                    className="dropdown-item"
+                    className="dropdown-item greenYellow"
                     href="https://betoayza.github.io/markdown-previewer/"
                   >
                     Markdown Previewer
@@ -94,7 +98,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <a
-                    className="dropdown-item"
+                    className="dropdown-item greenYellow"
                     href="https://betoayza.github.io/random-quote-machine/"
                   >
                     Random Quote Machine
@@ -102,7 +106,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <a
-                    className="dropdown-item"
+                    className="dropdown-item greenYellow"
                     href="https://betoayza.github.io/dog-finder-2/"
                   >
                     Dog Finder
@@ -110,7 +114,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <a
-                    className="dropdown-item"
+                    className="dropdown-item greenYellow"
                     href="https://betoayza.github.io/pokedex/"
                   >
                     Pokedex
@@ -118,7 +122,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <a
-                    className="dropdown-item"
+                    className="dropdown-item greenYellow"
                     href="https://betoayza.github.io/music-band/"
                   >
                     Music Band
@@ -126,7 +130,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <a
-                    className="dropdown-item"
+                    className="dropdown-item greenYellow"
                     href="https://betoayza.github.io/js-calculator/"
                   >
                     JS Calculator
@@ -134,7 +138,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <a
-                    className="dropdown-item"
+                    className="dropdown-item greenYellow"
                     href="https://betoayza.github.io/to-do-list/"
                   >
                     To Do List
@@ -142,10 +146,18 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <a
-                    className="dropdown-item"
+                    className="dropdown-item greenYellow"
                     href="https://betoayza.github.io/notes/"
                   >
                     Notes
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="dropdown-item greenYellow"
+                    href="https://betoayza.github.io/contacts-list/"
+                  >
+                    Contacts List
                   </a>
                 </li>
               </ul>
@@ -153,14 +165,30 @@ export const NavBar = () => {
             <li className="nav-item">
               <NavLink to={`/about`}>
                 {({ isActive }) => (
-                  <a className={isActive ? "nav-link" : "nav-link"}>About</a>
+                  <a
+                    className={
+                      isActive
+                        ? "nav-link pastelOrange"
+                        : "nav-link pastelOrange"
+                    }
+                  >
+                    About
+                  </a>
                 )}
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to={`/contact`}>
                 {({ isActive }) => (
-                  <a className={isActive ? "nav-link" : "nav-link"}>Contact</a>
+                  <a
+                    className={
+                      isActive
+                        ? "nav-link pastelOrange"
+                        : "nav-link pastelOrange"
+                    }
+                  >
+                    Contact
+                  </a>
                 )}
               </NavLink>
             </li>

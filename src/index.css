@@ -9,14 +9,22 @@ h1,
 h2 {
   /* color: #6610f2; */
   color: #18c88e;
-  -webkit-text-stroke: 1px black;  
+  -webkit-text-stroke: 1px black;
 }
 
 h3 {
   color: #d2cd17;
-  -webkit-text-stroke: 1px black;  
+  -webkit-text-stroke: 1px black;
 }
 
 p {
   color: #f3f1b4;
+}
+
+.greenYellow {
+  color: #adff2f;
+}
+
+.pastelOrange {
+  color: #ffb347;
 }
