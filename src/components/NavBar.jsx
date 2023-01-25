@@ -53,7 +53,7 @@ export const NavBar = () => {
                     className="dropdown-item greenYellow"
                     href="https://betoayza.github.io/shopping-cart-siete-oro-frontend/"
                   >
-                    Siete de Oro
+                    Siete de Oro E-commerce
                   </a>
                 </li>
                 <li>
@@ -158,6 +158,22 @@ export const NavBar = () => {
                     href="https://betoayza.github.io/contacts-list/"
                   >
                     Contacts List
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="dropdown-item greenYellow"
+                    href="https://betoayza.github.io/tasks-manager/"
+                  >
+                    Tasks Manager
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="dropdown-item greenYellow"
+                    href="https://betoayza.github.io/netflix-clone/"
+                  >
+                    Netflix Clone
                   </a>
                 </li>
               </ul>
