@@ -13,7 +13,7 @@ export const About = () => {
       >
         <h2>About:</h2>
         <p>
-          I'm a advanced systems student in{" "}
+          I'm a software developer received at{" "}
           <a href="https://inspt.utn.edu.ar/">INSPT</a> at the National
           Technological University (
           <a href="https://www.frba.utn.edu.ar/">UTN</a>) in Buenos Aires,

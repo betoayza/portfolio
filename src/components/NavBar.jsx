@@ -176,6 +176,14 @@ export const NavBar = () => {
                     Netflix Clone
                   </a>
                 </li>
+                <li>
+                  <a
+                    className="dropdown-item greenYellow"
+                    href="https://betoayza.github.io/weather-app/"
+                  >
+                    Weather App
+                  </a>
+                </li>
               </ul>
             </li>
             <li className="nav-item">
