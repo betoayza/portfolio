@@ -117,7 +117,7 @@ export const NavBar = () => {
                     className="dropdown-item greenYellow"
                     href="https://betoayza.github.io/pokedex/"
                   >
-                    Pokedex
+                    Pokedex ES
                   </a>
                 </li>
                 <li>
