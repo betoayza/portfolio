@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { NavBarSocial } from "./NavBarSocial";
+import { NavBarSocial } from "../../components/container/NavBarSocial";
 
 export const Home = () => {
   return (

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
 //import { useNavigate, useParams } from "react-router-dom";
-import { Modal } from "./Modal";
+import { Modal } from "../../components/pure/Modal";
 import axios from "axios";
 
 const initialForm = {
