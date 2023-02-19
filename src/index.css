@@ -28,3 +28,7 @@ p {
 .pastelOrange {
   color: #ffb347;
 }
+
+a {
+  text-decoration: none;
+}

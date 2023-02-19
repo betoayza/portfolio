@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const inactiveStyle = {
   textDecoration: "none",
@@ -48,7 +48,7 @@ export const NavBar = () => {
             <li className="nav-item">
               <NavLink
                 to={`/`}
-                className={"greenYellow nav-link"}
+                className={"nav-link"}
                 style={({ isActive }) =>
                   isActive ? activeStyle : inactiveStyle
                 }
@@ -59,9 +59,8 @@ export const NavBar = () => {
             <li className="nav-item dropdown">
               <NavLink
                 to="#"
-                className={`nav-link dropdown-toggle ${(isActive) => {
-                  isActive && activeClassName;
-                }}`}
+                className={`nav-link dropdown-toggle ${({ isActive }) =>
+                  isActive ? activeClassName : undefined}`}
                 style={inactiveStyle}
                 data-bs-toggle="dropdown" // importante
               >
@@ -73,157 +72,140 @@ export const NavBar = () => {
                 aria-labelledby="navbarDropdown"
               >
                 <li>
-                  <NavLink
+                  <a
                     href="https://betoayza.github.io/shopping-cart-siete-oro-frontend/"
                     className={"dropdown-item nav-link"}
-                    style={siteStyle}
                   >
-                    Siete de Oro E-commerce
-                  </NavLink>
+                    <span style={siteStyle}>Siete de Oro: E-commerce</span>
+                  </a>
                 </li>
                 <li>
-                  <NavLink
+                  <a
                     href="https://betoayza.github.io/car-workshop-frontend/"
                     className={"dropdown-item nav-link"}
-                    style={siteStyle}
                   >
-                    Super Car Workshop
-                  </NavLink>
+                    <span style={siteStyle}>SuperCar Workshop</span>
+                  </a>
                 </li>
                 <li>
-                  <NavLink
+                  <a
                     href="https://betoayza.github.io/countries-cities/"
                     className={"dropdown-item nav-link"}
-                    style={siteStyle}
                   >
-                    Countries Cities
-                  </NavLink>
+                    <span style={siteStyle}>Countries Cities</span>
+                  </a>
                 </li>
                 <li>
-                  <NavLink
+                  <a
                     href="https://betoayza.github.io/drum-machine/"
                     className={"dropdown-item nav-link"}
-                    style={siteStyle}
                   >
-                    Drum Machine
-                  </NavLink>
+                    <span style={siteStyle}>Drum</span>
+                  </a>
                 </li>
                 <li>
-                  <NavLink
+                  <a
                     href="https://betoayza.github.io/song-finder/"
                     className={"dropdown-item nav-link"}
-                    style={siteStyle}
                   >
-                    Song Finder
-                  </NavLink>
+                    <span style={siteStyle}>Song Finder</span>
+                  </a>
                 </li>
                 <li>
-                  <NavLink
+                  <a
                     href="https://betoayza.github.io/markdown-previewer/"
                     className={"dropdown-item nav-link"}
-                    style={siteStyle}
                   >
-                    Markdown Previewer
-                  </NavLink>
+                    <span style={siteStyle}>Markdown Previewer</span>
+                  </a>
                 </li>
                 <li>
-                  <NavLink
+                  <a
                     href="https://betoayza.github.io/random-quote-machine/"
                     className={"dropdown-item nav-link"}
-                    style={siteStyle}
                   >
-                    Random Quotes
-                  </NavLink>
+                    <span style={siteStyle}>Random Quotes</span>
+                  </a>
                 </li>
                 <li>
-                  <NavLink
+                  <a
                     href="https://betoayza.github.io/dog-finder-2/"
                     className={"dropdown-item nav-link"}
-                    style={siteStyle}
                   >
-                    Dog Finder
-                  </NavLink>
+                    <span style={siteStyle}>Dog Finder</span>
+                  </a>
                 </li>
                 <li>
-                  <NavLink
+                  <a
                     href="https://betoayza.github.io/pokedex/"
                     className={"dropdown-item nav-link"}
-                    style={siteStyle}
                   >
-                    Pokedex ES
-                  </NavLink>
+                    <span style={siteStyle}>Pokedex ES</span>
+                  </a>
                 </li>
                 <li>
-                  <NavLink
+                  <a
                     href="https://betoayza.github.io/music-band/"
                     className={"dropdown-item nav-link"}
-                    style={siteStyle}
                   >
-                    Music Band
-                  </NavLink>
+                    <span style={siteStyle}>Music Band</span>
+                  </a>
                 </li>
                 <li>
-                  <NavLink
+                  <a
                     href="https://betoayza.github.io/js-calculator/"
                     className={"dropdown-item nav-link"}
-                    style={siteStyle}
                   >
-                    JS Calcultator
-                  </NavLink>
+                    <span style={siteStyle}>JS Calculator</span>
+                  </a>
                 </li>
                 <li>
-                  <NavLink
+                  <a
                     href="https://betoayza.github.io/to-do-list/"
                     className={"dropdown-item nav-link"}
-                    style={siteStyle}
                   >
-                    To Do List
-                  </NavLink>
+                    <span style={siteStyle}>To Do List</span>
+                  </a>
                 </li>
                 <li>
-                  <NavLink
+                  <a
                     href="https://betoayza.github.io/notes/"
                     className={"dropdown-item nav-link"}
-                    style={siteStyle}
                   >
-                    Notes
-                  </NavLink>
+                    <span style={siteStyle}>Notes</span>
+                  </a>
                 </li>
                 <li>
-                  <NavLink
+                  <a
                     href="https://betoayza.github.io/contacts-list/"
                     className={"dropdown-item nav-link"}
-                    style={siteStyle}
                   >
-                    Contacts List
-                  </NavLink>
+                    <span style={siteStyle}>Contacts List</span>
+                  </a>
                 </li>
                 <li>
-                  <NavLink
+                  <a
                     href="https://betoayza.github.io/tasks-manager/"
                     className={"dropdown-item nav-link"}
-                    style={siteStyle}
                   >
-                    Tasks Manager
-                  </NavLink>
+                    <span style={siteStyle}>Tasks Manager</span>
+                  </a>
                 </li>
                 <li>
-                  <NavLink
+                  <a
                     href="https://betoayza.github.io/netflix-clone/"
                     className={"dropdown-item nav-link"}
-                    style={siteStyle}
                   >
-                    Netflix Clone
-                  </NavLink>
+                    <span style={siteStyle}>Netflix Clone</span>
+                  </a>
                 </li>
                 <li>
-                  <NavLink
+                  <a
                     href="https://betoayza.github.io/weather-app/"
                     className={"dropdown-item nav-link"}
-                    style={siteStyle}
                   >
-                    Weather App
-                  </NavLink>
+                    <span style={siteStyle}>Weather App</span>
+                  </a>
                 </li>
               </ul>
             </li>
