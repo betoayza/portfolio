@@ -74,7 +74,7 @@ export const NavBar = () => {
               >
                 <li>
                   <NavLink
-                    to="https://betoayza.github.io/shopping-cart-siete-oro-frontend/"
+                    href="https://betoayza.github.io/shopping-cart-siete-oro-frontend/"
                     className={"dropdown-item nav-link"}
                     style={siteStyle}
                   >
@@ -83,7 +83,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="https://betoayza.github.io/car-workshop-frontend/"
+                    href="https://betoayza.github.io/car-workshop-frontend/"
                     className={"dropdown-item nav-link"}
                     style={siteStyle}
                   >
@@ -92,7 +92,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="https://betoayza.github.io/countries-cities/"
+                    href="https://betoayza.github.io/countries-cities/"
                     className={"dropdown-item nav-link"}
                     style={siteStyle}
                   >
@@ -101,7 +101,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="https://betoayza.github.io/drum-machine/"
+                    href="https://betoayza.github.io/drum-machine/"
                     className={"dropdown-item nav-link"}
                     style={siteStyle}
                   >
@@ -110,7 +110,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="https://betoayza.github.io/song-finder/"
+                    href="https://betoayza.github.io/song-finder/"
                     className={"dropdown-item nav-link"}
                     style={siteStyle}
                   >
@@ -119,7 +119,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="https://betoayza.github.io/markdown-previewer/"
+                    href="https://betoayza.github.io/markdown-previewer/"
                     className={"dropdown-item nav-link"}
                     style={siteStyle}
                   >
@@ -128,7 +128,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="https://betoayza.github.io/random-quote-machine/"
+                    href="https://betoayza.github.io/random-quote-machine/"
                     className={"dropdown-item nav-link"}
                     style={siteStyle}
                   >
@@ -137,7 +137,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="https://betoayza.github.io/dog-finder-2/"
+                    href="https://betoayza.github.io/dog-finder-2/"
                     className={"dropdown-item nav-link"}
                     style={siteStyle}
                   >
@@ -146,7 +146,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="https://betoayza.github.io/pokedex/"
+                    href="https://betoayza.github.io/pokedex/"
                     className={"dropdown-item nav-link"}
                     style={siteStyle}
                   >
@@ -155,7 +155,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="https://betoayza.github.io/music-band/"
+                    href="https://betoayza.github.io/music-band/"
                     className={"dropdown-item nav-link"}
                     style={siteStyle}
                   >
@@ -164,7 +164,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="https://betoayza.github.io/js-calculator/"
+                    href="https://betoayza.github.io/js-calculator/"
                     className={"dropdown-item nav-link"}
                     style={siteStyle}
                   >
@@ -173,7 +173,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="https://betoayza.github.io/to-do-list/"
+                    href="https://betoayza.github.io/to-do-list/"
                     className={"dropdown-item nav-link"}
                     style={siteStyle}
                   >
@@ -182,7 +182,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="https://betoayza.github.io/notes/"
+                    href="https://betoayza.github.io/notes/"
                     className={"dropdown-item nav-link"}
                     style={siteStyle}
                   >
@@ -191,7 +191,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="https://betoayza.github.io/contacts-list/"
+                    href="https://betoayza.github.io/contacts-list/"
                     className={"dropdown-item nav-link"}
                     style={siteStyle}
                   >
@@ -200,7 +200,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="https://betoayza.github.io/tasks-manager/"
+                    href="https://betoayza.github.io/tasks-manager/"
                     className={"dropdown-item nav-link"}
                     style={siteStyle}
                   >
@@ -209,7 +209,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="https://betoayza.github.io/netflix-clone/"
+                    href="https://betoayza.github.io/netflix-clone/"
                     className={"dropdown-item nav-link"}
                     style={siteStyle}
                   >
@@ -218,7 +218,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="https://betoayza.github.io/weather-app/"
+                    href="https://betoayza.github.io/weather-app/"
                     className={"dropdown-item nav-link"}
                     style={siteStyle}
                   >
