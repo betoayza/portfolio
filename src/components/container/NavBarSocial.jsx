@@ -5,28 +5,28 @@ export const NavBarSocial = () => {
   return (
     <ul className="nav justify-content-center">
       <li className="nav-item">
-        <a
+        <NavLink
+          to="https://github.com/betoayza"
           className="nav-link active"
+          style={{ color: "white", fontSize: "40px" }}
           aria-current="page"
-          href="https://github.com/betoayza"
         >
-          <i
-            className="bi-github"
-            style={{ color: "white", fontSize: "40px" }}
-          ></i>
-        </a>
+          <i className="bi-github"></i>
+        </NavLink>
       </li>
 
       <li className="nav-item">
-        <a
-          className="nav-link"
-          href="https://www.linkedin.com/in/alberto-ayza-838023137/"
+        <NavLink
+          to="https://www.linkedin.com/in/alberto-ayza-838023137/"
+          className="nav-link active"
+          style={{ color: "white", fontSize: "40px" }}
+          aria-current="page"
         >
           <i
             className="bi-linkedin"
             style={{ color: "white", fontSize: "40px" }}
           ></i>
-        </a>
+        </NavLink>
       </li>
     </ul>
   );
