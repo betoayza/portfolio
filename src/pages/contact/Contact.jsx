@@ -112,7 +112,7 @@ export const Contact = () => {
           type="text"
           className="form-control w-100 mt-1"
           name="name"
-          placeholder="Nombre..."
+          placeholder="Name..."
           value={form.name}
           onChange={handleChange}
           style={{ color: "#932a0a", fontStyle: "italic" }}
@@ -123,7 +123,7 @@ export const Contact = () => {
           type="text"
           className="form-control w-100 mt-1"
           name="lastName"
-          placeholder="Apellido..."
+          placeholder="Lastname..."
           value={form.lastName}
           onChange={handleChange}
           style={{ color: "#932a0a", fontStyle: "italic" }}
@@ -146,7 +146,7 @@ export const Contact = () => {
           className="form-control w-100 mt-1"
           style={{ color: "#932a0a", fontStyle: "italic" }}
           name="message"
-          placeholder="Mensaje..."
+          placeholder="Message..."
           value={form.message}
           onChange={handleChange}
           rows={5}
@@ -157,11 +157,11 @@ export const Contact = () => {
 
         <div className={"m-1"}>
           <button type="submit" className="btn btn-primary">
-            Enviar
+            Send
           </button>
 
           <button type="reset" className="btn btn-danger" onClick={handleClean}>
-            Limpiar
+            Clean
           </button>
         </div>
       </form>

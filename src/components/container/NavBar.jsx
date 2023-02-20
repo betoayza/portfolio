@@ -72,6 +72,7 @@ export const NavBar = () => {
                 aria-labelledby="navbarDropdown"
               >
                 <li>
+                  {/* using <a> instead <NavLink> for external URLs */}
                   <a
                     href="https://betoayza.github.io/shopping-cart-siete-oro-frontend/"
                     className={"dropdown-item nav-link"}
