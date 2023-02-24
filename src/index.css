@@ -32,3 +32,8 @@ p {
 a {
   text-decoration: none;
 }
+
+.ability {
+  color: #00cc99;
+  font-weight: bold;
+}

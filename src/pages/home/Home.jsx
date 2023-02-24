@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { NavBarSocial } from "../../components/container/NavBarSocial";
+import { Visits } from "../../components/pure/Visits";
+
 
 export const Home = () => {
+  const [visits, setVisits] = useState(null);
+
   return (
     <div
       className={""}
@@ -28,6 +32,7 @@ export const Home = () => {
         </h3>
       </div>
       <div>
+        {/* <Visits visits={visits} setVisits={setVisits} /> */}
         <NavBarSocial />
       </div>
     </div>
