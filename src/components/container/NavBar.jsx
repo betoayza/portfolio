@@ -212,6 +212,17 @@ export const NavBar = () => {
             </li>
             <li className="nav-item">
               <NavLink
+                to={`/achievements`}
+                className={"nav-link"}
+                style={({ isActive }) =>
+                  isActive ? activeStyle : inactiveStyle
+                }
+              >
+                Achievements
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
                 to={`/about`}
                 className={"nav-link"}
                 style={({ isActive }) =>

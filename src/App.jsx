@@ -14,6 +14,8 @@ function App() {
 
         <Route exact path="/about" element={<Components.About />} />
 
+        <Route exact path="/achievements" element={<Components.Achievements />} />
+
         <Route exact path="*" element={<Components.Error404 />} />
       </Routes>
     </div>
