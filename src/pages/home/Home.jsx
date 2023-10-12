@@ -3,7 +3,6 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import { NavBarSocial } from "../../components/container/NavBarSocial";
 import { Visits } from "../../components/pure/Visits";
 
-
 export const Home = () => {
   const [visits, setVisits] = useState(null);
 
@@ -26,9 +25,9 @@ export const Home = () => {
           width: "auto",
         }}
       >
-        <h1>Hi I'm Alberto Ayza Web Developer</h1>
+        <h1>Hi! I'm Alberto Ayza (betodev)</h1>
         <h3 className={""} style={{ textShadow: "1px" }}>
-          Developer & content creator located in Argentina
+          Soft & Web Developer, Pentester & content creator located in Argentina
         </h3>
       </div>
       <div>
