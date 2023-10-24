@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const inactiveStyle = {
   textDecoration: "none",
@@ -206,6 +206,14 @@ export const NavBar = () => {
                     className={"dropdown-item nav-link"}
                   >
                     <span style={siteStyle}>Weather App</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://betoayza.github.io/25-5-clock/"
+                    className={"dropdown-item nav-link"}
+                  >
+                    <span style={siteStyle}>Pomodoro Clock</span>
                   </a>
                 </li>
               </ul>
