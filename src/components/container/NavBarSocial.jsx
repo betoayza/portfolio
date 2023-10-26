@@ -28,6 +28,20 @@ export const NavBarSocial = () => {
           ></i>
         </NavLink>
       </li>
+
+      <li className="nav-item">
+        <NavLink
+          to="https://www.youtube.com/@linuxexplorer1"
+          className="nav-link active"
+          style={{ color: "white", fontSize: "40px" }}
+          aria-current="page"
+        >
+          <i
+            className="bi-youtube"
+            style={{ color: "white", fontSize: "40px" }}
+          ></i>
+        </NavLink>
+      </li>
     </ul>
   );
 };
