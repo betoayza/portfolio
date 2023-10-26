@@ -5,7 +5,7 @@ export const Achievements = () => {
     <div className="text-center container">
       <h1>Achievements</h1>
       <div className="bg-dark d-inline-block p-2 rounded border border-3 border-success">
-        <h3>Cibersecurity</h3>
+        <h3>Cybersecurity</h3>
         <ul className="list-unstyled">
           <li>
             <a href="https://academy.hackthebox.com/achievement/845032/18">
